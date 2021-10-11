@@ -5,9 +5,9 @@
     "username":"postgres",
     "password":"postgres",
     "database":"mas",
-    "migrations":["./src/databases/migrations/**.ts"],
-    "entities":["./src/models"],
+    "migrations":["./src/database/migrations/**.ts"],
+    "entities":["./src/models/*.ts"],
     "cli": {
-        "migrationsDir":"./src/databases/migrations"
+        "migrationsDir":"./src/database/migrations"
     }
 }
