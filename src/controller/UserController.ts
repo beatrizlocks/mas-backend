@@ -8,7 +8,7 @@ class UserController {
         const createUser = new CreateUserService()
 
         const user = await createUser.execute(userData);
-    return response.json(user);
+        return response.json(user);
 
     }
 }
