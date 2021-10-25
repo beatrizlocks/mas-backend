@@ -13,11 +13,16 @@ const authenticatecontroller = new AuthenticateController()
 
 const routes = Router();
 
+routes.post('/auth', authenticatecontroller.create);
+
+routes.get('/user', authenticated, userController.show);
+routes.get('/activy', authenticated, activyController.show);
+routes.get('/courseunit', authenticated, courseunitcontroller.show);
 
 routes.post('/user', userController.create);
-routes.post('/auth', authenticatecontroller.create);
-routes.post('/activy', authenticated, activyController.create);
-routes.post('/courseUnit', authenticated, courseunitcontroller.create);
+routes.post('/activy',authenticated, activyController.create);
+routes.post('/courseunit',authenticated, courseunitcontroller.create);
+
 
 
 routes.get('/user', (request, response) => response.json({
