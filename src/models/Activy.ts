@@ -1,16 +1,15 @@
-import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn } from 'typeorm'
-import { v4 as uuid } from 'uuid';
+import {Column, CreateDateColumn, Entity, JoinTable, ManyToOne, PrimaryColumn} from "typeorm";
+import {v4 as uuid} from 'uuid';
 
-import { CourseUnit } from './CourseUnit';
+import {CourseUnit} from './CourseUnit';
 
-@Entity('activies')
+@Entity("activies")
 class Activy {
 
-    constructor() {
-        if (!this.id) {
-            this.id = uuid()
+    constructor(){
+        if(!this.id){
+            this.id = uuid();
         }
-
     }
 
     @PrimaryColumn()
@@ -32,8 +31,8 @@ class Activy {
     created_at: Date;
 
     @ManyToOne(() => CourseUnit, course_unit => course_unit.activies)
-    @JoinColumn()
-    course_unit: CourseUnit;
-
+    @JoinTable()
+    course_unit: CourseUnit
 }
-export { Activy }
+
+export {Activy};
