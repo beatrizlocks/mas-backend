@@ -36,12 +36,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateUsers1633559035013 = void 0;
+exports.CreateUsers1633992623401 = void 0;
 var typeorm_1 = require("typeorm");
-var CreateUsers1633559035013 = /** @class */ (function () {
-    function CreateUsers1633559035013() {
+var CreateUsers1633992623401 = /** @class */ (function () {
+    function CreateUsers1633992623401() {
     }
-    CreateUsers1633559035013.prototype.up = function (queryRunner) {
+    CreateUsers1633992623401.prototype.up = function (queryRunner) {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -79,7 +79,7 @@ var CreateUsers1633559035013 = /** @class */ (function () {
             });
         });
     };
-    CreateUsers1633559035013.prototype.down = function (queryRunner) {
+    CreateUsers1633992623401.prototype.down = function (queryRunner) {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -91,6 +91,6 @@ var CreateUsers1633559035013 = /** @class */ (function () {
             });
         });
     };
-    return CreateUsers1633559035013;
+    return CreateUsers1633992623401;
 }());
-exports.CreateUsers1633559035013 = CreateUsers1633559035013;
+exports.CreateUsers1633992623401 = CreateUsers1633992623401;

@@ -36,12 +36,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateActivies1617819129667 = void 0;
+exports.CreateActivies1633992890851 = void 0;
 var typeorm_1 = require("typeorm");
-var CreateActivies1617819129667 = /** @class */ (function () {
-    function CreateActivies1617819129667() {
+var CreateActivies1633992890851 = /** @class */ (function () {
+    function CreateActivies1633992890851() {
     }
-    CreateActivies1617819129667.prototype.up = function (queryRunner) {
+    CreateActivies1633992890851.prototype.up = function (queryRunner) {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -91,13 +91,13 @@ var CreateActivies1617819129667 = /** @class */ (function () {
             });
         });
     };
-    CreateActivies1617819129667.prototype.down = function (queryRunner) {
+    CreateActivies1633992890851.prototype.down = function (queryRunner) {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 return [2 /*return*/];
             });
         });
     };
-    return CreateActivies1617819129667;
+    return CreateActivies1633992890851;
 }());
-exports.CreateActivies1617819129667 = CreateActivies1617819129667;
+exports.CreateActivies1633992890851 = CreateActivies1633992890851;

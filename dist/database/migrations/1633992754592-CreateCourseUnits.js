@@ -36,12 +36,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateCourseUnits1633622880603 = void 0;
+exports.CreateCourseUnits1633992754592 = void 0;
 var typeorm_1 = require("typeorm");
-var CreateCourseUnits1633622880603 = /** @class */ (function () {
-    function CreateCourseUnits1633622880603() {
+var CreateCourseUnits1633992754592 = /** @class */ (function () {
+    function CreateCourseUnits1633992754592() {
     }
-    CreateCourseUnits1633622880603.prototype.up = function (queryRunner) {
+    CreateCourseUnits1633992754592.prototype.up = function (queryRunner) {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -75,7 +75,7 @@ var CreateCourseUnits1633622880603 = /** @class */ (function () {
             });
         });
     };
-    CreateCourseUnits1633622880603.prototype.down = function (queryRunner) {
+    CreateCourseUnits1633992754592.prototype.down = function (queryRunner) {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
@@ -87,6 +87,6 @@ var CreateCourseUnits1633622880603 = /** @class */ (function () {
             });
         });
     };
-    return CreateCourseUnits1633622880603;
+    return CreateCourseUnits1633992754592;
 }());
-exports.CreateCourseUnits1633622880603 = CreateCourseUnits1633622880603;
+exports.CreateCourseUnits1633992754592 = CreateCourseUnits1633992754592;
